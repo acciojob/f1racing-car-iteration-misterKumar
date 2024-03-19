@@ -7,6 +7,9 @@ public class F1Car {
 
     public F1Car(String carName, double speed, int racesWon) {
        // your code goes here
+        this.carName=carName;
+        this.speed=speed;
+        this.racesWon=racesWon;
     }
 
     public String getCarName() {

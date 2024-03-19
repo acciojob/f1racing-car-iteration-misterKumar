@@ -9,6 +9,7 @@ public class F1CarCollection implements Iterable<F1Car> {
 
 	    public void addCar(F1Car car) {
 	       // your code goes here
+			f1Cars.add(car);
 	    }
 
 	    @Override
